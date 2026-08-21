@@ -12,3 +12,19 @@ body{
 .ms-n10{
     margin-right: -10px;
 }
+.x_small{
+    font-size: 0.7rem;
+}
+.last_activity_icon{
+    height: 30px;
+    width: 30px;
+}
+
+.last_activity li:not(:last-child)>span::after{
+    content: "";
+    background-color: var(--bs-primary-bg-subtle);
+    height: 50px;
+    width: 2px;
+    position: absolute;
+    top: 100%;
+}
