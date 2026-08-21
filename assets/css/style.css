@@ -9,3 +9,6 @@ body{
 .dropdown_width{
     width: 16rem;
 }
+.ms-n10{
+    margin-right: -10px;
+}
